@@ -16,20 +16,7 @@ Smile is a complete rewrite of a BASIC-like language interpreter that provides a
 
 ## Architecture
 
-The Smile interpreter is organized into a clean, modular structure:
-
-```
-smile/
-├── __init__.py          # Package initialization and exports
-├── tokens.py           # Token definitions and code position tracking
-├── exceptions.py       # Custom exception classes
-├── state.py           # Global program state management
-├── lexer.py           # Lexical analysis and tokenization
-├── parser.py          # Syntax parsing and validation
-└── runtime.py         # Execution engine and runtime operations
-```
-
-### Module Responsibilities
+The Smile interpreter is organized into a clean, modular structure with the module responsibilities being as follows:
 
 - **`tokens.py`**: Defines token types, categories, and position tracking
 - **`exceptions.py`**: Custom exception classes for error handling
